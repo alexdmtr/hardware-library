@@ -2,7 +2,7 @@
 simpleCart({
   checkout: {
     type: "SendForm",
-    url: "http://localhost:3000"
+    url: "/hardware"
   },
   cartColumns: [
     { attr: 'name', label: 'Name'},
